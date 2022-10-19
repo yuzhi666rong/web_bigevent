@@ -61,8 +61,4 @@ let layer=layui.layer
       }
     })
   })
-  // 设置api默认路径
-  $.ajaxPrefilter(function(options){
-    options.url='http://www.liulongbin.top:3007'+options.url
-  })
 })
